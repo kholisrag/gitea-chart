@@ -1,0 +1,34 @@
+apiVersion: v1
+entries:
+  gitea:
+  - apiVersion: v2
+    appVersion: 1.9.3
+    created: "2020-02-19T01:47:16.810171241+07:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com
+      tags:
+      - mariadb
+      version: 7.3.0
+    description: Git with a cup of tea
+    digest: 973d36f9fcf12e2fd55ba97949285387ca5586f31acf5cd0a12f22eb321838e8
+    icon: https://docs.gitea.io/images/gitea.png
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - gitea
+    - gogs
+    maintainers:
+    - email: gumelaragum@protonmail.com
+      name: Kholis RA Gumelar
+    name: gitea
+    sources:
+    - https://github.com/go-gitea/gitea
+    - https://hub.docker.com/r/gitea/gitea/
+    urls:
+    - https://petrukngantuk.github.io/gitea-chart/gitea-1.2.1.tgz
+    version: 1.2.1
+generated: "2020-02-19T01:47:16.804724129+07:00"
